@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Loads the given css string into the head as an inlined script.
+ * Loads the given css string into the document head as an inlined script.
  * 
  * @name loadCSS
  * @function

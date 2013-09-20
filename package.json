@@ -1,6 +1,6 @@
 {
   "name": "load-css",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Dynamically loads CSS into the document head.",
   "main": "load-css.js",
   "scripts": {

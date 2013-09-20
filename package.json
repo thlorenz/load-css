@@ -14,7 +14,8 @@
   "dependencies": {},
   "devDependencies": {
     "tape": "~1.0.4",
-    "browserify": "~2.32.2"
+    "browserify": "~2.32.2",
+    "brfs": "0.0.8"
   },
   "keywords": [],
   "author": {

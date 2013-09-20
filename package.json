@@ -4,6 +4,7 @@
   "description": "Dynamically loads CSS into the document head.",
   "main": "load-css.js",
   "scripts": {
+    "test": "testling -x open",
     "demo-string": "(npm install && cd ./examples/load-string && node build.js && open index.html)",
     "demo-file": "(npm install && cd ./examples/load-file && node build.js && open index.html)"
   },

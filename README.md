@@ -51,7 +51,7 @@ loadCSS(css);
 You can run the [examples](https://github.com/thlorenz/load-css/tree/master/examples) via the following commands:
 
 - `npm run demo-string` demonstrates how to load a css string
-- `npm run demo-filw` demonstrates how to load a css file using the [brfs](https://github.com/substack/brfs) [browserify](https://github.com/substack/node-browserify) transform
+- `npm run demo-file` demonstrates how to load a css file using the [brfs](https://github.com/substack/brfs) [browserify](https://github.com/substack/node-browserify) transform
 
 ## License
 

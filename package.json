@@ -1,6 +1,6 @@
 {
   "name": "load-css",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dynamically loads CSS into the document head.",
   "main": "load-css.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "brfs": "0.0.8",
     "get-style-property": "~0.1.1"
   },
-  "keywords": [],
+  "keywords": [ "dynamic", "load", "inject", "inline", "css", "document", "head", "browserify", "brfs" ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",

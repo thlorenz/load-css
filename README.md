@@ -4,6 +4,16 @@
 
 Dynamically loads CSS into the document head.
 
+# Deprecated
+
+This was published after I searched for another module that solves this problem, but didn't find one. However afterwards
+I found two!!! Please use those instead:
+
+- [insert-css](https://github.com/substack/insert-css) exact same thing
+- [cssify2](https://github.com/trxcllnt/cssify2) transform that supports `require`ing css files
+
+Therefore **this module has been unpublished to avoid duplication**.
+
 ```js
 var loadCSS = require('load-css');
 var css = [

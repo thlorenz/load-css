@@ -4,7 +4,8 @@
   "description": "Dynamically loads CSS into the document head.",
   "main": "load-css.js",
   "scripts": {
-    "demo-string": "(npm install && cd ./examples/load-string && node build.js && open index.html)"
+    "demo-string": "(npm install && cd ./examples/load-string && node build.js && open index.html)",
+    "demo-file": "(npm install && cd ./examples/load-file && node build.js && open index.html)"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,8 @@
   "devDependencies": {
     "tape": "~1.0.4",
     "browserify": "~2.32.2",
-    "brfs": "0.0.8"
+    "brfs": "0.0.8",
+    "get-style-property": "~0.1.1"
   },
   "keywords": [],
   "author": {
@@ -29,5 +31,21 @@
   },
   "engine": {
     "node": ">=0.6"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
   }
 }

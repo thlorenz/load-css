@@ -15,6 +15,19 @@ var css = [
 loadCSS(css);
 ```
 
+#### With browserify and brfs you can even load a css file
+
+```js
+var fs = require('fs')
+var loadCSS = require('load-css');
+
+// the brfs transform will inline the index.css content for us when generating the bundle
+// make sure to include it as a transform: browserify -t brfs index.js
+var css = fs.readFileSync(__dirname + '/index.css');
+
+loadCSS(css);
+```
+
 ## Installation
 
     npm install load-css
